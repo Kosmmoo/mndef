@@ -20,7 +20,7 @@ nav{
 strong{
     color: red;
 }
-.Nadpis{
+.nadpis{
     position: relative;
     bottom: 10px;
     right: 150px;
@@ -58,7 +58,7 @@ main{
        display: flex;
    
    }
-   .Odeslat{
+   .tlacitko{
        padding-left: 10px;
    }
    
