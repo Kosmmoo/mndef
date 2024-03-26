@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+
+}
+h1 h2 {
+    font-family: "Oswald", sans-serif;
+}
+body{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav{
+    position: sticky;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 20px ; 
+    padding-right: 10px;
+    padding-bottom: 10px; 
+    margin: 10px;
+    border: 2px solid rgb(110, 0, 0);
+    justify-content: space-between;
+}
+.Nadpis{
+    position: relative;
+    bottom: 10px;
+    right: 130px;
+}
+.logo{
+    position: relative;
+    top: 10px;
+    right: 100px;
+}
+a{ text-decoration: none;
+}
+@media only screen and (max-device-width: 640px) {  
+    nav{ 
+    display: block; 
+     box-direction: column;
+}
+main{
+    display: flex;
+
+    flex-direction: column;
+
+}
+.text{
+    visibility: hidden;
+}
+.logo{
+    visibility: hidden;
+}
+.Nadpis{
+    position: relative;
+left: 2px;
+bottom: 25px;
+}
+footer{
+    display: block;
+flex-direction: column;
+}
+}
+    
+strong{
+    color: red ;
+}
+
+
+main{
+ display: flex;
+}
+.text{
+   text-align: center;
+   position: relative;
+   bottom: 20px;
+   background-color: rgba(240, 248, 255, 0);
+}
+.meč{
+text-align: center;
+padding: 10px;
+margin: 10px;
+border: 2px solid rgb(110, 0, 0);
+
+}
+footer{
+    display: flex;
+    border: 2px solid rgb(110, 0, 0);
+    margin: 10px;
+   padding: 10px;
+   justify-content: space-between;
+}
+.DOTAZNÍK{
+    display: flex;
+
+}
+.Odeslat{
+    padding-left: 10px;
+}
+
+.info{
+    position: relative;
+padding-top: 10px;
+}
+.talčítko{
+    padding-left: 5px;    
+}
+button{
+    cursor: pointer;
+}
