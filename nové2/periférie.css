@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Roboto+Slab:wght@100..900&display=swap');
+
+*,::before,::after{
+    font-family: "Roboto Condensed", sans-serif;
+    color: aliceblue;
+}
+
+body{  width: 100%;
+    box-sizing: border-box;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(79,12,12,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+nav{
+    border-radius: 8%;
+    display: flex;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 20px ; 
+    padding-right: 10px;
+    padding-bottom: 10px; 
+    margin: 10px;
+    border: 2px solid rgb(110, 0, 0);
+    justify-content: space-between;
+}
+
+strong{
+    color: red;
+}
+
+.titel{
+    position: relative;
+    bottom: 10px;
+    right: 150px;
+}
+
+.logo{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+a{
+     text-decoration: none;
+}
+
+main{
+    display: flex;
+   
+   }
+
+   .M{
+       position: relative;
+       bottom: 20px;
+       text-align: center;
+       display: inline-block;
+   }
+
+   .typ{
+    animation: typ 2s ease 0s 1 normal forwards;
+    border-radius: 10%;
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+   border: 2px solid rgb(110, 0, 0);
+   animation: typ 1s ease 0s 1 normal forwards;
+   cursor: pointer;
+   }
+
+   footer{
+    border-radius: 10%;
+       display: flex;
+       border: 2px solid rgb(110, 0, 0);
+       margin: 10px;
+      padding: 10px;
+      justify-content: space-between;
+   }
+
+   .DOTAZNÍK{
+       display: flex;
+   
+   }
+
+   .Odeslat{
+       padding-left: 10px;
+   }
+   button{
+    cursor: pointer;
+    background-color: rgb(110, 0, 0) ;
+}
+   .info{
+       position: relative;
+    
+   padding-top: 10px;
+   }
+
+.skryte{
+    display: none;
+}
+#typ1:hover {
+    height: 150px;
+    width: 1000px;
+}
+#typ2:hover{
+    height: 150px;
+    width: 1000px;
+}
+#typ3:hover{
+    height: 150px;
+    width: 1000px;
+}
+
+@keyframes typ {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 600px) {  
+    nav{ 
+    display: block; 
+     box-direction: column;
+}
+
+main{
+    display: flex;
+ 
+    flex-direction: column;
+
+}
+.v {
+    position: relative;
+    right: 130px;
+    bottom: 5px;
+}
+.bar {
+    position: relative;
+    right: 150px;
+}
+.logo{
+    display: none;
+}
+
+.title{
+    position: relative;
+left: 2px;
+bottom: 25px;
+}
+
+footer{
+    display: block;
+flex-direction: column;
+}
+}
+
+  
